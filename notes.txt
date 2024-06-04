@@ -1,0 +1,3 @@
+go to autoplius, find a new make model and open the webpage related to it(click on product)
+then look at the url and copy the relevant id, with the id you can then 
+relate the make_id, width_id, height_id, radius_id, quantity_id values.
