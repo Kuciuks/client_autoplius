@@ -1,10 +1,13 @@
 import xml.etree.ElementTree as ET
+import requests
+import config
 
 # Define the file name (make sure the file is in the same directory as your script)
 file_name = 'product_info.xml'
 
 car_tyre_storage = []
 car_rim_storage = []
+
 
 
 # Parse the XML file
@@ -22,7 +25,8 @@ def count_values(tag_names):
             
             #get data for car tyre elements
             if(tag == "car_tyre"):
-                sub_tags = ['is_condition_new','sell_price']
+                sub_tags = ['is_condition_new','sell_price','comments','reservation','make_id','model','type','width','height','radius','quantity']
+                
                 element_condition = element.find('is_condition_new').text
                 element_price = element.find('sell_price').text
                 element_country = element.find('fk_place_countries_id').text
@@ -57,6 +61,38 @@ def count_values(tag_names):
 #search for specific xml <tag>
 tag_names = ['car_tyre','rim']
 
-count_values(tag_names)
-print(len(car_rim_storage),len(car_tyre_storage),'\n\n',car_tyre_storage)
+# count_values(tag_names)
+# print(len(car_rim_storage),len(car_tyre_storage),'\n\n',car_tyre_storage)
 
+
+
+
+
+
+
+
+
+
+#fetching data from URL
+def fetch_data(url):
+    #get request to the users product xml data on AutoPlius servers
+    response = requests.get(url)
+    
+    #if successful return fetched data
+    if response.status_code == 200:
+        return response.content
+
+    #if failed throw an error and return None
+    else:
+        print(f'Failed to fetch the data from url{response.status_code}')
+        return None
+    
+    
+#fetching url
+result = fetch_data(config.url)
+
+#check returned result value
+if result != None:
+    print('Fetch was successful') #\n\n{result}
+else:
+    print('Fetch was unsuccessful')
