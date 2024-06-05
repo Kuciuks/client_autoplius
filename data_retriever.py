@@ -1,15 +1,7 @@
-import xml.etree.ElementTree as ET
 import requests
 import config
 import data_storer
-
-
-
-
-
-
-
-
+import codecs
 
 
 
@@ -33,8 +25,9 @@ result = fetch_data(config.url)
 
 #check returned result value
 if result != None:
-    print('Fetch was successful') #\n\n{result}
-    
-    
+    print('Fetch was successful')
+    print(result.decode('unicode_escape'))
+    print(result.decode('utf-8'))
+    # data_storer.store_data_file(str(result))
 else:
     print('Fetch was unsuccessful')

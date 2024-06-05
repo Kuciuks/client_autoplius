@@ -1,3 +1,6 @@
+import traceback
+import xml.etree.ElementTree as ET
+
 # Define the file name (make sure the file is in the same directory as your script)
 car_tyre_storage = []
 car_rim_storage = []
@@ -5,8 +8,8 @@ car_rim_storage = []
 
 
 # Parse the XML file
-tree = ET.parse(file_name)
-root = tree.getroot()
+# tree = ET.parse(file_name)
+# root = tree.getroot()
 
 # Function to count occurrences of a specific value
 def count_values(tag_names):
@@ -51,6 +54,16 @@ def count_values(tag_names):
                 
             count += 1
             
+def store_data_file(data):
+    try:
+        with open('product_data.xml','w',encoding='utf-8') as file:
+            file.write(data.decode('utf-8'))
+            file.close()
+    except Exception as err:
+        print(f"Failed to write to file, error: {err}")
+        # traceback.print_exc()
+
+
 
 #search for specific xml <tag>
 tag_names = ['car_tyre','rim']
