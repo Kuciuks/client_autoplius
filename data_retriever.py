@@ -6,6 +6,7 @@ import codecs
 
 class RetrieveProducts:
     
+    #class constructor
     def __init__(self):
         self.url = config.url
     
@@ -16,6 +17,7 @@ class RetrieveProducts:
         
         #if successful return fetched data
         if response.status_code == 200:
+            print('Fetch was successful')
             return response.content
 
         #if failed throw an error and return None
@@ -23,20 +25,49 @@ class RetrieveProducts:
             print(f'Failed to fetch the data from url{response.status_code}')
             return None
     
-    #fetches data and send it off to be stored
-    def send_data_to_store(self):
-        #fetching url
-        result = self.fetch_data()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    # #fetches data and send it off to be stored
+    # def send_data_to_store(self):
+    #     #fetching url
+    #     result = self.fetch_data()
 
-        #check returned result value
-        if result != None:
-            print('Fetch was successful')
+    #     #check returned result value
+    #     if result != None:
+    #         print('Fetch was successful')
             
-            #submit result xml data to store in a file
-            data_storer.store_data_file(result)
-        else:
-            print('Fetch was unsuccessful')
-
-#create an instance of the class
-retriever = RetrieveProducts()
-retriever.send_data_to_store()
+    #         #submit result xml data to store in a file
+    #         data_storer.store_data_file(result)
+    #     else:
+    #         print('Fetch was unsuccessful')
