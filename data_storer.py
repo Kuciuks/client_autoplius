@@ -61,15 +61,24 @@ class StoreData:
         self.data = data
     
     #store and decode the xml b'data' into a .xml file
-    def store_data_file(self):
+    def store_data_file(self,type):
         try:
-            with open('product_data.xml','w',encoding='utf-8') as file:
-                file.write(self.data.decode('utf-8'))
-                file.close()
+            match type:
+                case 'tyres':
+                    pass
+                case 'rims':
+                    pass
+                case 'products':
+                    pass
+                
         except Exception as err:
             print(f"Failed to write to file, error: {err}")
             # traceback.print_exc()
 
+    def upload_data(self):
+        with open('product_data.xml','w',encoding='utf-8') as file:
+            file.write(self.data.decode('utf-8'))
+            file.close()
 
 
 #search for specific xml <tag>
