@@ -54,6 +54,7 @@ def count_values(tag_names):
                 
             count += 1
             
+#store and decode the xml b'data' into a .xml file
 def store_data_file(data):
     try:
         with open('product_data.xml','w',encoding='utf-8') as file:
