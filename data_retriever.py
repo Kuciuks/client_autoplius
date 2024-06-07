@@ -1,52 +1,63 @@
 import requests
 import config
 import data_storer
-import codecs
 
 
-class RetrieveProducts:
+
     
-    #class constructor
-    def __init__(self):
-        self.url = config.url
-    
-    #fetching data from URL
-    def fetch_data(self):
-        #get request to the users product xml data on AutoPlius servers
-        response = requests.get(self.url)
-        check_status(response)
-        
-    
-    
-#class for retrieving rims and tires index values
-class RetrieveTyreRimsIndexInfo:
-    
-    #class constructor
-    def __init__(self,tire_url,rims_url):
-        self.tyre_url = config.tyre_url
-        self.rims_url = config.rims_url
-        
-    #tyre index value retriever
-    def retrieve_tyre_data(self):
-        response = requests.get(self.tyre_url)
-        check_status(response)
-    
-    #rims index value retriever
-    def retrieve_rims_data(self):
-        response = requests.get(self.rims_url)
-        check_status(response)
-    
-#check response status and return the contents
-def check_status(response):
+def check(response,type):
     #if successful return fetched data
     if response.status_code == 200:
-        print('Fetch was successful')
+        print(f'[{type}] Fetch was successful')
         return response.content
 
     #if failed throw an error and return None
     else:
-        print(f'Failed to fetch the data from url{response.status_code}')
+        print(f'[{type}] Failed to fetch the data from url{response.status_code}')
         return None
+
+#check response status and return the contents
+def check_status(response, type):
+    
+    match type:
+        case 'product':
+            product_result = check(response)
+        case 'tyre':
+            tyre_result = check(response)
+        case 'rims':
+            rims_result = check(response)
+
+
+
+
+class RetrieveData:
+    #class constructor
+    def __init__(self):
+        self.product_url = config.product_url
+        self.tyre_url = config.tyre_url
+        self.rims_url = config.rims_url
+
+    
+    #fetching data from URL
+    def retrieve_product_data(self):
+        #get request to the users product xml data on AutoPlius servers
+        response = requests.get(self.product_url)
+        check_status(response,'products')
+        
+        
+    #tyre index value retriever
+    def retrieve_tyre_data(self):
+        response = requests.get(self.tyre_url)
+        check_status(response,'tyres')
+    
+    
+    #rims index value retriever
+    def retrieve_rims_data(self):
+        response = requests.get(self.rims_url)
+        check_status(response,'rims')
+    
+    
+    
 
     
     
