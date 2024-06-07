@@ -16,9 +16,11 @@ def check(response,type):
         print(f'[{type}] Failed to fetch the data from url{response.status_code}')
         return None
 
+
 #check response status and return the contents
 def check_status(response, type):
     
+    #match what type of data request was passed in
     match type:
         case 'product':
             product_result = check(response)
@@ -26,8 +28,6 @@ def check_status(response, type):
             tyre_result = check(response)
         case 'rims':
             rims_result = check(response)
-
-
 
 
 class RetrieveData:
