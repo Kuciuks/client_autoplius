@@ -9,12 +9,12 @@ def check_status(response,type):
     #if successful return fetched data
     if response.status_code == 200:
         print(f'[{type}] Fetch was successful')
-        return response.content
+        return [response.content,True]
 
     #if failed throw an error and return None
     else:
         print(f'[{type}] Failed to fetch the data from url{response.status_code}')
-        return None
+        return [None,False]
 
 
 class RetrieveData:
@@ -29,22 +29,22 @@ class RetrieveData:
     def retrieve_product_data(self):
         #get request to the users product xml data on AutoPlius servers
         response = requests.get(self.product_url)
-        data = check_status(response,'products')
-        return data
+        data, status = check_status(response,'products')
+        return data, status
         
         
     #tyre index value retriever
     def retrieve_tyre_data(self):
         response = requests.get(self.tyre_url)
-        data = check_status(response,'tyres')
-        return data
+        data, status = check_status(response,'tyres')
+        return data, status
     
     
     #rims index value retriever
     def retrieve_rims_data(self):
         response = requests.get(self.rims_url)
-        data = check_status(response,'rims')
-        return data
+        data, status = check_status(response,'rims')
+        return data, status
     
     
 
