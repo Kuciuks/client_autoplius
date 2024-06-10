@@ -5,6 +5,8 @@ import xml.etree.ElementTree as ET
 car_tyre_storage = []
 car_rim_storage = []
 
+
+#function for storing data to a .xml file
 def upload_data(item,data):
     try:
         with open(f'{item}_data.xml','w',encoding='utf-8') as file:
@@ -14,12 +16,40 @@ def upload_data(item,data):
     except Exception as err:
         print(f'Encountered an error whilst uploading {item} data to a file, error: ',err)
 
+
+class StoreData:
+    #class constructor
+    def __init__(self,data):
+        self.data = data
+    
+    
+    #store and decode the xml b'data' into a .xml file
+    def store_data_file(self):
+        #go through the target items(products,tyres,rims) list and retrieve their key:value pairs
+        for item in self.data:
+            #get the key and value values of the current target item dictionary            
+            for key, value in item.items():
+                #match the values and upload to data to corresponding files
+                match key:
+                    case 'tyre':
+                        print(f'Uploading data for {key}')
+                        upload_data(key, value)
+                        break
+                    case 'rims':
+                        print(f'Uploading data for {key}')
+                        upload_data(key, value)
+                        break
+                    case 'products':
+                        print(f'Uploading data for {key}')
+                        upload_data(key, value)
+                        break
+                    
+            
+
 # Parse the XML file
 # tree = ET.parse(file_name)
 # root = tree.getroot()
 
-class StoreData:
-    
     # # Function to count occurrences of a specific value
     # def count_values(tag_names):
     #     count = 0
@@ -62,33 +92,3 @@ class StoreData:
     #                 car_rim_storage.append(element_data_storage)
                     
     #             count += 1
-
-    #class constructor
-    def __init__(self,data):
-        self.data = data
-    
-    
-    #store and decode the xml b'data' into a .xml file
-    def store_data_file(self):
-        for item in self.data:
-            for key, value in item.items():
-                # print('Key names',key)
-                match key:
-                    case 'tyre':
-                        print(f'Uploading data for {key}')
-                        upload_data(key, value)
-                        break
-                    case 'rims':
-                        print(f'Uploading data for {key}')
-                        upload_data(key, value)
-                        break
-                    case 'products':
-                        print(f'Uploading data for {key}')
-                        upload_data(key, value)
-                        break
-                    
-            
-
-
-#search for specific xml <tag>
-tag_names = ['car_tyre','rim']

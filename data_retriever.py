@@ -17,19 +17,6 @@ def check_status(response,type):
         return None
 
 
-
-# def check_status(response, type):
-    
-#     #match what type of data request was passed in
-#     match type:
-#         case 'product':
-#             product_result = check(response, type)
-#         case 'tyre':
-#             tyre_result = check(response, type)
-#         case 'rims':
-#             rims_result = check(response)
-
-
 class RetrieveData:
     #class constructor
     def __init__(self):
@@ -45,11 +32,13 @@ class RetrieveData:
         data = check_status(response,'products')
         return data
         
+        
     #tyre index value retriever
     def retrieve_tyre_data(self):
         response = requests.get(self.tyre_url)
         data = check_status(response,'tyres')
         return data
+    
     
     #rims index value retriever
     def retrieve_rims_data(self):
