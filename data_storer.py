@@ -5,7 +5,14 @@ import xml.etree.ElementTree as ET
 car_tyre_storage = []
 car_rim_storage = []
 
-
+def upload_data(item,data):
+    try:
+        with open(f'{item}_data.xml','w',encoding='utf-8') as file:
+            file.write(data.decode('utf-8'))
+            file.close()
+        print(f'Data for {item} uploaded successfully!')
+    except Exception as err:
+        print(f'Encountered an error whilst uploading {item} data to a file, error: ',err)
 
 # Parse the XML file
 # tree = ET.parse(file_name)
@@ -60,25 +67,27 @@ class StoreData:
     def __init__(self,data):
         self.data = data
     
+    
     #store and decode the xml b'data' into a .xml file
-    def store_data_file(self,type):
-        try:
-            match type:
-                case 'tyres':
-                    pass
-                case 'rims':
-                    pass
-                case 'products':
-                    pass
-                
-        except Exception as err:
-            print(f"Failed to write to file, error: {err}")
-            # traceback.print_exc()
-
-    def upload_data(self):
-        with open('product_data.xml','w',encoding='utf-8') as file:
-            file.write(self.data.decode('utf-8'))
-            file.close()
+    def store_data_file(self):
+        for item in self.data:
+            for key, value in item.items():
+                # print('Key names',key)
+                match key:
+                    case 'tyre':
+                        print(f'Uploading data for {key}')
+                        upload_data(key, value)
+                        break
+                    case 'rims':
+                        print(f'Uploading data for {key}')
+                        upload_data(key, value)
+                        break
+                    case 'products':
+                        print(f'Uploading data for {key}')
+                        upload_data(key, value)
+                        break
+                    
+            
 
 
 #search for specific xml <tag>

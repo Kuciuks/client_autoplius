@@ -4,8 +4,8 @@ import data_storer
 
 
 
-    
-def check(response,type):
+#check response status and return the contents
+def check_status(response,type):
     #if successful return fetched data
     if response.status_code == 200:
         print(f'[{type}] Fetch was successful')
@@ -17,17 +17,17 @@ def check(response,type):
         return None
 
 
-#check response status and return the contents
-def check_status(response, type):
+
+# def check_status(response, type):
     
-    #match what type of data request was passed in
-    match type:
-        case 'product':
-            product_result = check(response)
-        case 'tyre':
-            tyre_result = check(response)
-        case 'rims':
-            rims_result = check(response)
+#     #match what type of data request was passed in
+#     match type:
+#         case 'product':
+#             product_result = check(response, type)
+#         case 'tyre':
+#             tyre_result = check(response, type)
+#         case 'rims':
+#             rims_result = check(response)
 
 
 class RetrieveData:
@@ -42,20 +42,20 @@ class RetrieveData:
     def retrieve_product_data(self):
         #get request to the users product xml data on AutoPlius servers
         response = requests.get(self.product_url)
-        check_status(response,'products')
-        
+        data = check_status(response,'products')
+        return data
         
     #tyre index value retriever
     def retrieve_tyre_data(self):
         response = requests.get(self.tyre_url)
-        check_status(response,'tyres')
-    
+        data = check_status(response,'tyres')
+        return data
     
     #rims index value retriever
     def retrieve_rims_data(self):
         response = requests.get(self.rims_url)
-        check_status(response,'rims')
-    
+        data = check_status(response,'rims')
+        return data
     
     
 
