@@ -14,7 +14,7 @@ def retry_fetch(url,type,attempt):
     
     except requests.RequestException as err:
         print(f'[{type}] Exception during retry fetch: {err}')
-        retry_fetch(url, type, attempt + 1)
+        return retry_fetch(url, type, attempt + 1)
 
 #check response status and return the contents
 def check_status(response,type,url,attempt):
@@ -67,47 +67,3 @@ class RetrieveData:
         except requests.RequestException as err:
             print(f'\n[rims] - Exception during initial fetch: {err}')
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    # #fetches data and send it off to be stored
-    # def send_data_to_store(self):
-    #     #fetching url
-    #     result = self.fetch_data()
-
-    #     #check returned result value
-    #     if result != None:
-    #         print('Fetch was successful')
-            
-    #         #submit result xml data to store in a file
-    #         data_storer.store_data_file(result)
-    #     else:
-    #         print('Fetch was unsuccessful')
