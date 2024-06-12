@@ -9,7 +9,7 @@ def retry_fetch(url,type,attempt):
     
     try:
         print(f'[{type}] Retrying fetching for {type}')
-        response = requests.get(url,timeout=10)
+        response = requests.get(url,timeout=60)
         return check_status(response, type, url, attempt)
     
     except requests.RequestException as err:
@@ -41,7 +41,7 @@ class RetrieveData:
     def retrieve_product_data(self):
         try:
             #get request to the users product xml data on AutoPlius servers
-            response = requests.get(self.product_url,timeout=10)
+            response = requests.get(self.product_url,timeout=60)
             data, status = check_status(response,'products',self.product_url,attempt=0)
             return data, status
         except requests.RequestException as err:
@@ -51,7 +51,7 @@ class RetrieveData:
     #tyre index value retriever
     def retrieve_tyre_data(self):
         try:
-            response = requests.get(self.tyre_url,timeout=10)
+            response = requests.get(self.tyre_url,timeout=60)
             data, status = check_status(response,'tyres',self.tyre_url,attempt=0)
             return data, status
         except requests.RequestException as err:
@@ -61,7 +61,7 @@ class RetrieveData:
     #rims index value retriever
     def retrieve_rims_data(self):
         try:
-            response = requests.get(self.rims_url,timeout=10)
+            response = requests.get(self.rims_url,timeout=60)
             data, status = check_status(response,'rims',self.rims_url,attempt=0)
             return data, status
         except requests.RequestException as err:
