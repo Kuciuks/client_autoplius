@@ -1,4 +1,4 @@
-import data_retriever, data_storer
+import data_retriever, data_storer, config
 
 
 def get_data(retriever):
@@ -30,15 +30,10 @@ if __name__=='__main__':
     #create an instance of the class StoreData and pass fetched data as a parameter
     storer = data_storer.StoreData(data)
     
-    #go through each item from the list of dictionaries
-    for item in data:
-        #get iterated items key:value pair values
-        for key, value in item.items():
-            #check if the data fetch status is True
-            if value[1] == True:
-                #store data to a file
-                storer.store_data_file()
+    #store data to a file
+    storer.store_data_file()
 
+    print(config.file_paths)
     
     
     
