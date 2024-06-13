@@ -1,20 +1,20 @@
-import data_retriever, data_storer, config
+import data_retriever, data_storer, config, data_parser
 
 
 def get_data(retriever):
     storage = []
     
     #fetch the product data
-    product_data, status = retriever.retrieve_product_data()
-    storage.append({'products':[product_data,status]})
+    product_data, product_status = retriever.retrieve_product_data()
+    storage.append({'products':[product_data,product_status]})
     
     #fetch the tyre index data
-    tyre_data, status = retriever.retrieve_tyre_data()
-    storage.append({'tyre':[tyre_data,status]})
+    tyre_data, tyre_status = retriever.retrieve_tyre_data()
+    storage.append({'tyre':[tyre_data,tyre_status]})
     
     #fetch the rims index data
-    rims_data, status = retriever.retrieve_rims_data()
-    storage.append({'rims':[rims_data,status]})
+    rims_data, rims_status = retriever.retrieve_rims_data()
+    storage.append({'rims':[rims_data,rims_status]})
     
     # print('Length of data_storage = ',len(storage))
     return storage
@@ -33,7 +33,8 @@ if __name__=='__main__':
     #store data to a file
     storer.store_data_file()
 
-    print(config.file_paths)
+    #parse data from files at location(config.file_paths) and get all cells of data into an array
+    data_parser.parse_values(config.file_paths)
     
     
     
