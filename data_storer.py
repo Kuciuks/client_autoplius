@@ -2,10 +2,6 @@ import traceback
 import os
 import config
 
-# Define the file name (make sure the file is in the same directory as your script)
-car_tyre_storage = []
-car_rim_storage = []
-
 
 #function for storing data to a .xml file
 def upload_data(item,data):
@@ -24,7 +20,6 @@ class StoreData:
     #class constructor
     def __init__(self,data):
         self.data = data
-    
     
     #store and decode the xml b'data' into a .xml file
     def store_data_file(self):
