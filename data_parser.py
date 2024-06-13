@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 car_tyre_storage = []
 car_rim_storage = []
 
-tag_names = ['rims','tyres']
+tag_names = ['rim','car_tyre']
 
 # Function to count occurrences of a specific value
 def parse_values(file_paths):

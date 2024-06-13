@@ -16,6 +16,9 @@ def get_data(retriever):
     rims_data, rims_status = retriever.retrieve_rims_data()
     storage.append({'rims':[rims_data,rims_status]})
     
+    truck_tyres_data, truck_tyres_status = retriever.retrieve_truck_tyre_data()
+    storage.append({'truck':[truck_tyres_data,truck_tyres_status]})
+    
     # print('Length of data_storage = ',len(storage))
     return storage
 

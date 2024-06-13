@@ -35,6 +35,7 @@ class RetrieveData:
         self.product_url = config.product_url
         self.tyre_url = config.tyre_url
         self.rims_url = config.rims_url
+        self.truck_url = config.truck_url
 
     
     #fetching data from URL
@@ -66,4 +67,13 @@ class RetrieveData:
             return data, status
         except requests.RequestException as err:
             print(f'\n[rims] - Exception during initial fetch: {err}')
+            
+    
+    def retrieve_truck_tyre_data(self):
+        try:
+            response = requests.get(self.truck_url,timeout=60)
+            data, status = check_status(response,'truck',self.truck_url,attempt=0)
+            return data, status
+        except requests.RequestException as err:
+            print(f'\n[truck] - Exception during initial fetch: {err}')
     

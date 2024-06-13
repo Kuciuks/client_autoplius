@@ -44,6 +44,10 @@ class StoreData:
                             print(f'Uploading data for {key}')
                             upload_data(key, value[0])
                             break
+                        case 'truck':
+                            print(f'Uploading data for {key}')
+                            upload_data(key, value[0])
+                            break
                 
                 else:
                     print(f'{key} data status has not been fetched successfully')
