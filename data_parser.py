@@ -22,10 +22,8 @@ def parse_values(file_paths):
                 #go through each subelement to fetch the different tag names
                 for subelement in root_element:
                     element_detail_storage = []
-                    
                     for element in subelement:
-                        for details in element:
-                            element_detail_storage.append(details)
+                        element_detail_storage.append(element)
             write_to_csv.write_to_csv(element_detail_storage)
             
             
