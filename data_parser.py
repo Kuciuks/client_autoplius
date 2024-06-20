@@ -1,4 +1,4 @@
-import write_to_csv
+import write_to_csv, config
 import xml.etree.ElementTree as ET
 
 # Define the file name (make sure the file is in the same directory as your script)
@@ -9,7 +9,7 @@ tag_names = ['rim','car_tyre']
 
 # Function to count occurrences of a specific value
 def parse_values(file_paths):
-    
+    print('\n\n\n\n')
     for path in file_paths:
         file_tree = ET.parse(path)
         file_tree_root = file_tree.getroot()
@@ -19,12 +19,10 @@ def parse_values(file_paths):
             print('autoplius')
             #go through the element that stores all the other subelements of data
             for root_element in file_tree_root:
+                element_type_storage = []
                 #go through each subelement to fetch the different tag names
-                for subelement in root_element:
-                    element_detail_storage = []
-                    for element in subelement:
-                        element_detail_storage.append(element)
-            write_to_csv.write_to_csv(element_detail_storage)
+                for element in root_element:
+                    config.product_type_storage.append(element)
             
             
         else:
