@@ -7,23 +7,27 @@ car_rim_storage = []
 
 tag_names = ['rim','car_tyre']
 
+
+
+
+
+
 # Function to count occurrences of a specific value
 def parse_values(file_paths):
-    print('\n\n\n\n')
+    print('\n\n')
     for path in file_paths:
         file_tree = ET.parse(path)
         file_tree_root = file_tree.getroot()
         
         #check if the root element is autoplius - products
         if file_tree_root.tag == 'autoplius':
-            print('autoplius')
             #go through the element that stores all the other subelements of data
             for root_element in file_tree_root:
-                element_type_storage = []
                 #go through each subelement to fetch the different tag names
                 for element in root_element:
                     config.product_type_storage.append(element)
-            
+            print('Finished parsing Autoplius products types\n')
+            write_to_csv.write_to_csv()
             
         else:
             print('not autoplius')
