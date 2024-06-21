@@ -1636,33 +1636,6 @@
 				<depth>100</depth>
 			</car_tyre>
 			<car_tyre>
-				<id>18857862</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302587485/triangle-ispardavimas-201-siunciame-vasarines-225-40-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302587495/triangle-ispardavimas-201-siunciame-vasarines-225-40-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302587519/triangle-ispardavimas-201-siunciame-vasarines-225-40-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302587547/triangle-ispardavimas-201-siunciame-vasarines-225-40-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302587555/triangle-ispardavimas-201-siunciame-vasarines-225-40-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302587565/triangle-ispardavimas-201-siunciame-vasarines-225-40-r19.jpg</photo>
-				</photos>
-				<sell_price>48.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[  Padangos tikrai kokybiškos  Siunčiam, prekes gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20158</make_id>
-				<model>IŠPARDAVIMAS; 201; SIUNČIAME</model>
-				<type_id>8954</type_id>
-				<width_id>20225</width_id>
-				<height_id>19931</height_id>
-				<radius_id>20187</radius_id>
-				<quantity_id>8925</quantity_id>
-				<tyres_make_year>2021</tyres_make_year>
-			</car_tyre>
-			<car_tyre>
 				<id>18857986</id>
 				<is_condition_new>1</is_condition_new>
 				<photos>

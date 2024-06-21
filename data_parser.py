@@ -22,15 +22,19 @@ def parse_values(file_paths):
         #check if the root element is autoplius - products
         if file_tree_root.tag == 'autoplius':
             #go through the element that stores all the other subelements of data
+            product_data_storage = []
             for root_element in file_tree_root:
                 #go through each subelement to fetch the different tag names
                 for element in root_element:
-                    config.product_type_storage.append(element)
+                    product_data_storage.append(element)
             print('Finished parsing Autoplius products types\n')
-            write_to_csv.product_to_csv()
+            write_to_csv.product_to_csv(product_data_storage)
             
         else:
-            print('not autoplius')
+            value_data_storage = file_tree_root.findall('.//item')
+            print('Finished parsing value data types\n')
+            write_to_csv.value_to_csv(value_data_storage)
+                
         
         
                 
