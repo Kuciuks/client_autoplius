@@ -4541,34 +4541,6 @@
 				<tyres_make_year>2020</tyres_make_year>
 			</car_tyre>
 			<car_tyre>
-				<id>23011390</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302711877/dynamo-ispardavimas-mh01-siunciame-vasarines-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302711879/dynamo-ispardavimas-mh01-siunciame-vasarines-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302711885/dynamo-ispardavimas-mh01-siunciame-vasarines-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302711889/dynamo-ispardavimas-mh01-siunciame-vasarines-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302711891/dynamo-ispardavimas-mh01-siunciame-vasarines-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_302711895/dynamo-ispardavimas-mh01-siunciame-vasarines-225-45-r17.jpg</photo>
-				</photos>
-				<sell_price>45.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos tikrai kokybiškos  Siunčiam, prekes gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>31343</make_id>
-				<model>IŠPARDAVIMAS; MH01; SIUNČIAME</model>
-				<type_id>8954</type_id>
-				<width_id>20225</width_id>
-				<height_id>19932</height_id>
-				<radius_id>20185</radius_id>
-				<quantity_id>8925</quantity_id>
-				<tyres_make_year>2021</tyres_make_year>
-			</car_tyre>
-			<car_tyre>
 				<id>23025844</id>
 				<is_condition_new>1</is_condition_new>
 				<photos>
@@ -12935,32 +12907,6 @@
 				<type_id>8954</type_id>
 				<width_id>20227</width_id>
 				<height_id>19930</height_id>
-				<radius_id>20188</radius_id>
-				<quantity_id>8925</quantity_id>
-			</car_tyre>
-			<car_tyre>
-				<id>25362119</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_307177499/triangle-201-siunciame-vasarines-265-45-r20.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_307177503/triangle-201-siunciame-vasarines-265-45-r20.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_307177505/triangle-201-siunciame-vasarines-265-45-r20.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_307177509/triangle-201-siunciame-vasarines-265-45-r20.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_307177511/triangle-201-siunciame-vasarines-265-45-r20.jpg</photo>
-				</photos>
-				<sell_price>79.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos tikrai kokybiškos  Siunčiam, prekes gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20158</make_id>
-				<model>201; SIUNČIAME</model>
-				<type_id>8954</type_id>
-				<width_id>20229</width_id>
-				<height_id>19932</height_id>
 				<radius_id>20188</radius_id>
 				<quantity_id>8925</quantity_id>
 			</car_tyre>
@@ -30892,31 +30838,6 @@
 				<quantity_id>8923</quantity_id>
 			</car_tyre>
 			<car_tyre>
-				<id>25813204</id>
-				<is_condition_new>0</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313519924/austone-g1-04-siunciame-universalios-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313519926/austone-g1-04-siunciame-universalios-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313519934/austone-g1-04-siunciame-universalios-225-45-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313519936/austone-g1-04-siunciame-universalios-225-45-r17.jpg</photo>
-				</photos>
-				<sell_price>40.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos iš Skandinavijos.  Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Siuntimus, grąžinimus, keitimus apmoka pirkėjas.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707  NAUDOTOM PADANGOM GARANTIJOS NETEIKIAME. PASITAIKIUS BROKUI GRĄŽINIMAS APMOKAMAS PIRKĖJO.]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>28865</make_id>
-				<model>G1-04; SIUNČIAME</model>
-				<type_id>8956</type_id>
-				<width_id>20225</width_id>
-				<height_id>19932</height_id>
-				<radius_id>20185</radius_id>
-				<quantity_id>8923</quantity_id>
-			</car_tyre>
-			<car_tyre>
 				<id>25813236</id>
 				<is_condition_new>0</is_condition_new>
 				<photos>
@@ -32833,32 +32754,6 @@
 				<width_id>20228</width_id>
 				<height_id>19935</height_id>
 				<radius_id>20186</radius_id>
-				<quantity_id>8923</quantity_id>
-			</car_tyre>
-			<car_tyre>
-				<id>25966626</id>
-				<is_condition_new>0</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316003944/continental-b1-05-siunciame-universalios-215-60-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316003952/continental-b1-05-siunciame-universalios-215-60-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316003958/continental-b1-05-siunciame-universalios-215-60-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316003966/continental-b1-05-siunciame-universalios-215-60-r17.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316003972/continental-b1-05-siunciame-universalios-215-60-r17.jpg</photo>
-				</photos>
-				<sell_price>35.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos iš Skandinavijos.  Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Siuntimus, grąžinimus, keitimus apmoka pirkėjas.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707  NAUDOTOM PADANGOM GARANTIJOS NETEIKIAME. PASITAIKIUS BROKUI GRĄŽINIMAS APMOKAMAS PIRKĖJO.]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>19984</make_id>
-				<model>B1-05; SIUNČIAME</model>
-				<type_id>8956</type_id>
-				<width_id>20224</width_id>
-				<height_id>19935</height_id>
-				<radius_id>20185</radius_id>
 				<quantity_id>8923</quantity_id>
 			</car_tyre>
 			<car_tyre>
@@ -61644,39 +61539,6 @@
 				<offset>20.0</offset>
 			</rim>
 			<rim>
-				<id>25812680</id>
-				<is_condition_new>0</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511488/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511594/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511600/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511610/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511612/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511616/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_313511620/mercedes-benz-5x112-pr-kod-a16-2-lengvojo-lydinio-r16.jpg</photo>
-				</photos>
-				<sell_price>65.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Prekės kodas A16-2  KAINA LENTELĖJE YRA UŽ KOMPLEKTĄ.    Keitimas ir grąžinimas yra apmokamas kliento.  Atliekame RATŲ DAŽYMO PASLAUGĄ - MILTELINIU BŪDŲ  PREKIAUJAME IR PROGRAMUOJAME TPMS DAVIKLIUS    Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Išrašom PVM sąsk.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>16516</make_id>
-				<model>5x112; PR.KOD. A16-2</model>
-				<type_id>9094</type_id>
-				<vehicle_type_id>19241</vehicle_type_id>
-				<measurements_id>9075</measurements_id>
-				<consolidation_points_id>9002</consolidation_points_id>
-				<quantity_id>9089</quantity_id>
-				<spacing_between_holes_id>11477</spacing_between_holes_id>
-				<central_diameter_hole_id>11521</central_diameter_hole_id>
-				<has_damaged_id>19874</has_damaged_id>
-				<width_id>6.50</width_id>
-				<offset>60.0</offset>
-			</rim>
-			<rim>
 				<id>25812706</id>
 				<is_condition_new>0</is_condition_new>
 				<photos>
@@ -64133,6 +63995,72 @@
 				<has_damaged_id>19874</has_damaged_id>
 				<width_id>6.50</width_id>
 				<offset>48.0</offset>
+			</rim>
+			<rim>
+				<id>26070740</id>
+				<is_condition_new>0</is_condition_new>
+				<photos>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662876/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662878/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662880/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662882/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662886/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662888/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317662890/kita-5x108-pr-kod-v19-02-lengvojo-lydinio-r19.jpg</photo>
+				</photos>
+				<sell_price>175.00</sell_price>
+				<fk_place_countries_id>1</fk_place_countries_id>
+				<fk_place_cities_id>_87_</fk_place_cities_id>
+				<comments><![CDATA[Prekės kodas V19-02  KAINA LENTELĖJE YRA UŽ KOMPLEKTĄ.    Keitimas ir grąžinimas yra apmokamas kliento.  Atliekame RATŲ DAŽYMO PASLAUGĄ - MILTELINIU BŪDŲ  PREKIAUJAME IR PROGRAMUOJAME TPMS DAVIKLIUS    Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Išrašom PVM sąsk.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
+				<contacts_phone>+37064064060</contacts_phone>
+				<contacts_email>luokesauto@gmail.com</contacts_email>
+				<external_id>-1</external_id>
+				<reservation>0</reservation>
+				<make_id>9005</make_id>
+				<model>5x108 PR.KOD. V19-02</model>
+				<type_id>9094</type_id>
+				<vehicle_type_id>19241</vehicle_type_id>
+				<measurements_id>9079</measurements_id>
+				<consolidation_points_id>9002</consolidation_points_id>
+				<quantity_id>9089</quantity_id>
+				<spacing_between_holes_id>11475</spacing_between_holes_id>
+				<central_diameter_hole_id>11514</central_diameter_hole_id>
+				<has_damaged_id>19874</has_damaged_id>
+				<width_id>0.00</width_id>
+				<offset>0.0</offset>
+			</rim>
+			<rim>
+				<id>26070748</id>
+				<is_condition_new>0</is_condition_new>
+				<photos>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663226/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663232/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663238/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663242/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663244/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663246/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+					<photo>https://autoplius-img.dgn.lt/ann_2_317663250/kita-5x108-pr-kod-v18-03-lengvojo-lydinio-r18.jpg</photo>
+				</photos>
+				<sell_price>112.00</sell_price>
+				<fk_place_countries_id>1</fk_place_countries_id>
+				<fk_place_cities_id>_87_</fk_place_cities_id>
+				<comments><![CDATA[Prekės kodas V18-03  KAINA LENTELĖJE YRA UŽ KOMPLEKTĄ.    Keitimas ir grąžinimas yra apmokamas kliento.  Atliekame RATŲ DAŽYMO PASLAUGĄ - MILTELINIU BŪDŲ  PREKIAUJAME IR PROGRAMUOJAME TPMS DAVIKLIUS    Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Išrašom PVM sąsk.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
+				<contacts_phone>+37064064060</contacts_phone>
+				<contacts_email>luokesauto@gmail.com</contacts_email>
+				<external_id>-1</external_id>
+				<reservation>0</reservation>
+				<make_id>9005</make_id>
+				<model>5x108 PR.KOD. V18-03</model>
+				<type_id>9094</type_id>
+				<vehicle_type_id>19241</vehicle_type_id>
+				<measurements_id>9078</measurements_id>
+				<consolidation_points_id>9002</consolidation_points_id>
+				<quantity_id>9089</quantity_id>
+				<spacing_between_holes_id>11475</spacing_between_holes_id>
+				<central_diameter_hole_id>11514</central_diameter_hole_id>
+				<has_damaged_id>19874</has_damaged_id>
+				<width_id>7.50</width_id>
+				<offset>50.0</offset>
 			</rim>
 		</rims>
 	</announcements>

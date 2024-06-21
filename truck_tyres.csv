@@ -1,1 +1,1 @@
-truck_tyre,truck_tyre,truck_tyre,truck_tyre,truck_tyre,truck_tyre,truck_tyre,truck_tyre
+id,is_condition_new,photos,sell_price,fk_place_countries_id,fk_place_cities_id,comments,contacts_phone,contacts_email,external_id,reservation,make_id,model,type_id,width_id,height_id,radius_id,quantity_id

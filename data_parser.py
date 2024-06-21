@@ -26,10 +26,8 @@ def parse_values(file_paths):
                 #go through each subelement to fetch the different tag names
                 for element in root_element:
                     config.product_type_storage.append(element)
-                    for details in element:
-                        print(details[0],'---------')
             print('Finished parsing Autoplius products types\n')
-            # write_to_csv.write_to_csv()
+            write_to_csv.product_to_csv()
             
         else:
             print('not autoplius')
