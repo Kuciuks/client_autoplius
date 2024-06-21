@@ -1,5 +1,6 @@
 import write_to_csv, config
 import xml.etree.ElementTree as ET
+import os
 
 # Define the file name (make sure the file is in the same directory as your script)
 car_tyre_storage = []
@@ -33,7 +34,9 @@ def parse_values(file_paths):
         else:
             value_data_storage = file_tree_root.findall('.//item')
             print('Finished parsing value data types\n')
-            write_to_csv.value_to_csv(value_data_storage)
+            # name = path.split('\\')[len(path.split('\\'))-1]
+            name = os.path.splitext(os.path.basename(path))[0]
+            write_to_csv.value_to_csv(value_data_storage,name)
                 
         
         

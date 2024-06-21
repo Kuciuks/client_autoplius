@@ -25813,32 +25813,6 @@
 				<quantity_id>8925</quantity_id>
 			</car_tyre>
 			<car_tyre>
-				<id>25735242</id>
-				<is_condition_new>0</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_312279336/continental-p2-siunciame-vasarines-275-55-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_312279340/continental-p2-siunciame-vasarines-275-55-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_312279344/continental-p2-siunciame-vasarines-275-55-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_312279350/continental-p2-siunciame-vasarines-275-55-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_312279358/continental-p2-siunciame-vasarines-275-55-r19.jpg</photo>
-				</photos>
-				<sell_price>30.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos iš Skandinavijos.  Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Siuntimus, grąžinimus, keitimus apmoka pirkėjas.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707  NAUDOTOM PADANGOM GARANTIJOS NETEIKIAME. PASITAIKIUS BROKUI GRĄŽINIMAS APMOKAMAS PIRKĖJO.]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>19984</make_id>
-				<model>P2; SIUNČIAME</model>
-				<type_id>8954</type_id>
-				<width_id>20230</width_id>
-				<height_id>19934</height_id>
-				<radius_id>20187</radius_id>
-				<quantity_id>8923</quantity_id>
-			</car_tyre>
-			<car_tyre>
 				<id>25735248</id>
 				<is_condition_new>0</is_condition_new>
 				<photos>
