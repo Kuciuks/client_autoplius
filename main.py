@@ -19,7 +19,6 @@ def get_data(retriever):
     truck_tyres_data, truck_tyres_status = retriever.retrieve_truck_tyre_data()
     storage.append({'truck':[truck_tyres_data,truck_tyres_status]})
     
-    # print('Length of data_storage = ',len(storage))
     return storage
 
 
@@ -29,6 +28,7 @@ if __name__=='__main__':
     #create an instance of the class RetrieveData
     retriever = data_retriever.RetrieveData()
     data = get_data(retriever)
+    
 
     #create an instance of the class StoreData and pass fetched data as a parameter
     storer = data_storer.StoreData(data)

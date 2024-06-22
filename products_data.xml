@@ -3024,32 +3024,6 @@
 				<tyres_make_year>2022</tyres_make_year>
 			</car_tyre>
 			<car_tyre>
-				<id>21397515</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_298557791/triangle-pl01-ziemines-205-60-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_298557793/triangle-pl01-ziemines-205-60-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_298557799/triangle-pl01-ziemines-205-60-r16.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_250720761/triangle-pl01-ziemines-205-60-r16.jpg</photo>
-				</photos>
-				<sell_price>55.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos tikrai kokybiškos  Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_phone2>+37067646744</contacts_phone2>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20158</make_id>
-				<model>PL01;</model>
-				<type_id>8955</type_id>
-				<width_id>20223</width_id>
-				<height_id>19935</height_id>
-				<radius_id>20184</radius_id>
-				<quantity_id>8923</quantity_id>
-			</car_tyre>
-			<car_tyre>
 				<id>21397519</id>
 				<is_condition_new>1</is_condition_new>
 				<photos>
@@ -4799,32 +4773,6 @@
 				<type_id>8955</type_id>
 				<width_id>20226</width_id>
 				<height_id>19935</height_id>
-				<radius_id>20186</radius_id>
-				<quantity_id>8923</quantity_id>
-				<tyres_make_year>2018</tyres_make_year>
-			</car_tyre>
-			<car_tyre>
-				<id>23803625</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_298696991/nokian-siunciame-ziemines-255-55-r18.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_298696995/nokian-siunciame-ziemines-255-55-r18.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_298696997/nokian-siunciame-ziemines-255-55-r18.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_283036589/nokian-siunciame-ziemines-255-55-r18.jpg</photo>
-				</photos>
-				<sell_price>75.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos tikrai kokybiškos  Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20092</make_id>
-				<model>SIUNČIAME</model>
-				<type_id>8955</type_id>
-				<width_id>20228</width_id>
-				<height_id>19934</height_id>
 				<radius_id>20186</radius_id>
 				<quantity_id>8923</quantity_id>
 				<tyres_make_year>2018</tyres_make_year>
@@ -19120,32 +19068,6 @@
 				<model>ZSR2; SIUNČIAME</model>
 				<type_id>8954</type_id>
 				<width_id>20230</width_id>
-				<height_id>19930</height_id>
-				<radius_id>20187</radius_id>
-				<quantity_id>8925</quantity_id>
-			</car_tyre>
-			<car_tyre>
-				<id>25645303</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316350656/sailun-zsr2-siunciame-vasarines-245-35-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_310720663/sailun-zsr2-siunciame-vasarines-245-35-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_310720679/sailun-zsr2-siunciame-vasarines-245-35-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_310720691/sailun-zsr2-siunciame-vasarines-245-35-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_310720697/sailun-zsr2-siunciame-vasarines-245-35-r19.jpg</photo>
-				</photos>
-				<sell_price>79.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[PRIEKIS 245/35/19 parduodama tik su galu 275/30/19  TURIME IR GALUI 275/30/19  Padangos tikrai kokybiškos  Siunčiam, prekes gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20119</make_id>
-				<model>ZSR2; SIUNČIAME</model>
-				<type_id>8954</type_id>
-				<width_id>20227</width_id>
 				<height_id>19930</height_id>
 				<radius_id>20187</radius_id>
 				<quantity_id>8925</quantity_id>
@@ -36086,33 +36008,6 @@
 				<quantity_id>8925</quantity_id>
 			</car_tyre>
 			<car_tyre>
-				<id>25980036</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316350772/sailun-zsr2-siunciame-vasarines-275-30-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316233922/sailun-zsr2-siunciame-vasarines-275-30-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316233926/sailun-zsr2-siunciame-vasarines-275-30-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316233928/sailun-zsr2-siunciame-vasarines-275-30-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316233932/sailun-zsr2-siunciame-vasarines-275-30-r19.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_316233934/sailun-zsr2-siunciame-vasarines-275-30-r19.jpg</photo>
-				</photos>
-				<sell_price>82.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[TURIME PRIEKIUI 245/35/19  GALAS 275/30/19  Padangos tikrai kokybiškos  Siunčiam, prekes gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Atliekame: RATŲ MILTELINIS DAŽYMAS, SMĖLIAVIMAS, VIRINIMAS, LYGINIMAS.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20119</make_id>
-				<model>ZSR2; SIUNČIAME</model>
-				<type_id>8954</type_id>
-				<width_id>20230</width_id>
-				<height_id>19929</height_id>
-				<radius_id>20187</radius_id>
-				<quantity_id>8925</quantity_id>
-			</car_tyre>
-			<car_tyre>
 				<id>25987228</id>
 				<is_condition_new>1</is_condition_new>
 				<photos>
@@ -36313,31 +36208,6 @@
 				<width_id>20221</width_id>
 				<height_id>19937</height_id>
 				<radius_id>20182</radius_id>
-				<quantity_id>8923</quantity_id>
-			</car_tyre>
-			<car_tyre>
-				<id>26052072</id>
-				<is_condition_new>1</is_condition_new>
-				<photos>
-					<photo>https://autoplius-img.dgn.lt/ann_2_317379748/goodride-su-c-siunciame-ziemines-155-80-r13.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_317379754/goodride-su-c-siunciame-ziemines-155-80-r13.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_317379764/goodride-su-c-siunciame-ziemines-155-80-r13.jpg</photo>
-					<photo>https://autoplius-img.dgn.lt/ann_2_317379774/goodride-su-c-siunciame-ziemines-155-80-r13.jpg</photo>
-				</photos>
-				<sell_price>49.00</sell_price>
-				<fk_place_countries_id>1</fk_place_countries_id>
-				<fk_place_cities_id>_87_</fk_place_cities_id>
-				<comments><![CDATA[Padangos tikrai kokybiškos  Siunčiam, prekę gausite rytoj, pinigus sumokėsite kurjeriui.  Kainos su PVM.  Išrašom PVM sąsk.  Заказ по русскому языку можно сделать по номеру +37060210707]]></comments>
-				<contacts_phone>+37064064060</contacts_phone>
-				<contacts_email>luokesauto@gmail.com</contacts_email>
-				<external_id>-1</external_id>
-				<reservation>0</reservation>
-				<make_id>20026</make_id>
-				<model>SU C; SIUNČIAME</model>
-				<type_id>8955</type_id>
-				<width_id>20218</width_id>
-				<height_id>19939</height_id>
-				<radius_id>20181</radius_id>
 				<quantity_id>8923</quantity_id>
 			</car_tyre>
 			<car_tyre>

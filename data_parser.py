@@ -1,21 +1,15 @@
-import write_to_csv, config
+import write_to_csv, config, value_converter
 import xml.etree.ElementTree as ET
 import os
-
-# Define the file name (make sure the file is in the same directory as your script)
-car_tyre_storage = []
-car_rim_storage = []
-
-tag_names = ['rim','car_tyre']
-
-
-
 
 
 
 # Function to count occurrences of a specific value
 def parse_values(file_paths):
     print('\n\n')
+    value_data_storage = []
+    product_data_storage = []
+
     for path in file_paths:
         file_tree = ET.parse(path)
         file_tree_root = file_tree.getroot()
@@ -23,22 +17,21 @@ def parse_values(file_paths):
         #check if the root element is autoplius - products
         if file_tree_root.tag == 'autoplius':
             #go through the element that stores all the other subelements of data
-            product_data_storage = []
             for root_element in file_tree_root:
                 #go through each subelement to fetch the different tag names
                 for element in root_element:
                     product_data_storage.append(element)
             print('Finished parsing Autoplius products types\n')
-            write_to_csv.product_to_csv(product_data_storage)
+            # write_to_csv.product_to_csv(product_data_storage)
             
         else:
-            value_data_storage = file_tree_root.findall('.//item')
+            value_data = file_tree_root.findall('.//item')
             print('Finished parsing value data types\n')
-            # name = path.split('\\')[len(path.split('\\'))-1]
             name = os.path.splitext(os.path.basename(path))[0]
-            write_to_csv.value_to_csv(value_data_storage,name)
-                
-        
+            value_data_storage.append({f'{name}':value_data})
+            # write_to_csv.value_to_csv(value_data_storage,name)
+
+    value_converter.convert_values(product_data_storage,value_data_storage)
         
                 
                 
