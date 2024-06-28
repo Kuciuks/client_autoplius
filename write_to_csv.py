@@ -25,7 +25,7 @@ def value_to_csv(data,name):
     #go through each individual element inside the data array
     for product in data:
         # capture product column values for products
-        details = [details.text for details in product]
+        details = [details.tag for details in product]
         id_values.append(details[0])
         values.append(details[1])
 

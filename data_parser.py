@@ -22,14 +22,15 @@ def parse_values(file_paths):
                 for element in root_element:
                     product_data_storage.append(element)
             print('Finished parsing Autoplius products types\n')
-            # write_to_csv.product_to_csv(product_data_storage)
+            write_to_csv.product_to_csv(product_data_storage)
             
         else:
             value_data = file_tree_root.findall('.//item')
             print('Finished parsing value data types\n')
             name = os.path.splitext(os.path.basename(path))[0]
-            value_data_storage.append({f'{name}':value_data})
-            # write_to_csv.value_to_csv(value_data_storage,name)
+            # value_data_storage.append({f'{name}':value_data})
+            value_data_storage.append(value_data)
+            write_to_csv.value_to_csv(value_data_storage,name)
 
     value_converter.convert_values(product_data_storage,value_data_storage)
         
